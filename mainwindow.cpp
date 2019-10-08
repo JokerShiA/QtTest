@@ -9,8 +9,6 @@
 #include <QImage>
 #include <QPixmap>
 #include <QBuffer>
-#include <windows.h>
-#include <Shlobj.h>
 #include <QMessageBox>
 
 
