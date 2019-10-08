@@ -34,42 +34,7 @@ matrix:
         apt: true
         directories:
             - /opt/qt*/ 
-#macOS 10.13 with xcode 9.4
-    - os: osx
-      osx_image: xcode9.4
-      env: 
-        targetFile=HelloCI
-        releaseName=HelloCI_macos10-13_xcode9-4.dmg
-        qtDir=/usr/local/opt/qt
-      cache:
-        bundler: true
-        directories:
-            - /usr/local/Cellar/qt/
-            - /usr/local/opt/qt/
-#macOS 10.14 with xcode 10.3
-    - os: osx
-      osx_image: xcode10.3
-      env: 
-        targetFile=HelloCI
-        releaseName=HelloCI_macos10-14_xcode10-2.dmg
-        qtDir=/usr/local/opt/qt
-      cache:
-        bundler: true
-        directories:
-            - /usr/local/Cellar/qt/
-            - /usr/local/opt/qt/
-  #macOS 10.14 with xcode 11
-    - os: osx
-      osx_image: xcode11
-      env: 
-        targetFile=HelloCI
-        releaseName=HelloCI_macos10-14_xcode10-2.dmg
-        qtDir=/usr/local/opt/qt
-      cache:
-        bundler: true
-        directories:
-            - /usr/local/Cellar/qt/
-            - /usr/local/opt/qt/
+
 #组
 group: deprecated-2019Q1
 
