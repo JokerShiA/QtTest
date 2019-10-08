@@ -18,6 +18,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
 
+
     Test *t = new Test();
     t->Print();
 }
